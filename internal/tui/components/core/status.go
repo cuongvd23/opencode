@@ -279,7 +279,7 @@ func (m statusCmp) model() string {
 
 	return styles.Padded().
 		Background(t.Secondary()).
-		Foreground(t.Background()).
+		Foreground(t.BackgroundDarker()).
 		Render(model.Name)
 }
 

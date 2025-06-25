@@ -161,7 +161,7 @@ func (t *BaseTheme) Text() lipgloss.AdaptiveColor { return t.TextColor }
 func (t *BaseTheme) TextMuted() lipgloss.AdaptiveColor { return t.TextMutedColor }
 func (t *BaseTheme) TextEmphasized() lipgloss.AdaptiveColor { return t.TextEmphasizedColor }
 
-func (t *BaseTheme) Background() lipgloss.AdaptiveColor { return t.BackgroundColor }
+func (t *BaseTheme) Background() lipgloss.AdaptiveColor { return lipgloss.AdaptiveColor{} }
 func (t *BaseTheme) BackgroundSecondary() lipgloss.AdaptiveColor { return t.BackgroundSecondaryColor }
 func (t *BaseTheme) BackgroundDarker() lipgloss.AdaptiveColor { return t.BackgroundDarkerColor }
 

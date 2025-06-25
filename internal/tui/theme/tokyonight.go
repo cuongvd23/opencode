@@ -18,7 +18,7 @@ func NewTokyoNightTheme() *TokyoNightTheme {
 	darkCurrentLine := "#1e2030"
 	darkSelection := "#2f334d"
 	darkForeground := "#c8d3f5"
-	darkComment := "#636da6"
+	darkComment := "#9399b2"
 	darkRed := "#ff757f"
 	darkOrange := "#ff966c"
 	darkYellow := "#ffc777"
